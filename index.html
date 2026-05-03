@@ -1080,4 +1080,8 @@
     const observer = new IntersectionObserver(
       ([entry]) => { floatCta.style.display = entry.isIntersecting ? 'none' : 'block'; },
       { threshold: 0.3 }
-   
+    );
+    observer.observe(hero);
+  </script>
+</body>
+</html>
